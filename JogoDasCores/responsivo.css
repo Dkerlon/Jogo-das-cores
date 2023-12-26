@@ -1,0 +1,26 @@
+@media (max-width: 626px) {
+    .sessao{
+        width: 90%;
+    }
+    .sessao_novo_jogador{
+        width: 90%;
+    }
+    .game_board{
+        width: 100%;
+        padding: 20px
+    }
+    .topo p{
+        width: 75%;
+    }
+  }
+
+  @media (max-width: 626px) {
+    
+    .cabecalho input{
+        width: 30px;
+    }
+    .btn_enviar{
+        margin-left: 10px;
+        padding: 10px 10px;
+    }
+  }

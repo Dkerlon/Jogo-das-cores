@@ -138,11 +138,16 @@ button:hover{
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 
 .cabecalho{
     width: 100%;
+}
+
+.cabecalho p,span{
+    font-size: 1.3rem;
 }
 
 .cabecalho input{
