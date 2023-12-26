@@ -14,7 +14,7 @@
     }
   }
 
-  @media (max-width: 626px) {
+  @media (max-width: 375px) {
     
     .cabecalho input{
         width: 30px;
