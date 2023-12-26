@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+button,input{
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#h1{
+    font-size: 40px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.sessao{
+    border: 3px solid #b6b1b1;
+    padding: 160px 30px 160px 30px;
+    background-color: #ccc;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    height: 300px;
+    gap: 15px;
+}
+
+.sessao button{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 90%;
+    border: 3px solid #fcf2f2;
+    padding: 20px;
+}
+
+.sessao_novo_jogador{
+    letter-spacing: 2px;
+    border: 3px solid #b6b1b1;
+    padding: 160px 30px 160px 30px;
+    background-color: #ccc;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    height: 300px;
+    gap: 20px;
+}
+
+.sessao_carregar_jogador{
+    letter-spacing: 2px;
+    border: 3px solid #b6b1b1;
+    padding: 160px 30px 160px 30px;
+    background-color: #ccc;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    height: 300px;
+    gap: 20px;
+}
+
+.sessao_carregar_jogador button{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 90%;
+    border: 3px solid #fcf2f2;
+    padding: 20px;
+}
+
+.sessao_novo_jogador input{
+    text-align: center;
+    font-size: 18px;
+}
+
+.sessao_novo_jogador label{
+    font-size: 30px;
+}
+
+#nome_input{
+    width: 80%;
+    padding: 5px 0px;
+    letter-spacing: 2px;
+}
+
+.sessao_novo_jogador button{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 80%;
+    border: 3px solid #fcf2f2;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sessao_hidden{
+    display: none !important;
+}
+
+.game_board{
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    background-color: #b6b1b1;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.topo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cabecalho{
+    width: 100%;
+}
+
+.cabecalho input{
+    width: 60px;
+    padding: 10px 1px;
+    text-align: center;
+    outline: none;
+}
+
+.placar{
+    margin-top: 10px;
+    width:  100%;
+    margin: o auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_enviar{
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.placar span{
+    font-size: 35px;
+}
+
+.game{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;   
+}
+.campo{
+    opacity: 0.9;
+    cursor: pointer;
+    background-color: #ccc;
+    border: 1px solid black;
+    flex: 30%;
+    height: 209px;
+}
+
+.campo:hover{
+    opacity: 0.7;
+    scale: 1.05;
+}
+
+#btn_voltar{
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.mostrar{
+    display: flex !important;
+}
+
+.errou{
+    background-color: red !important;
+}
+.acertou{
+    background-color: green !important;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1">Jogo das cores</h1>
+    <div class="sessao">
+        <button id="btn_novo_jogo">Novo Jogo</button>
+        <button id="btn_carregar_jogo">Carregar jogo</button>
+        <button id="btn_como_jogar">Como se joga?</button>
+    </div>
+    <div class="sessao_novo_jogador">
+        <label for="nome">Nome do jogador</label>
+        <input type="text" id="nome_input">
+        <button id="btn_iniciar">Iniciar novo jogo </button>
+    </div>
+    <div class="sessao_carregar_jogador">
+        <button class="jogador" value="0">Jogador 1</button>
+        <button class="jogador" value="1">Jogador 2</button>
+        <button class="jogador" value="2">Jogador 3</button>
+    </div>
+    <main class="game_board">
+        <div class="cabecalho">
+            <div class="topo">
+                <p style="margin-bottom: 10px;">Insira a sua cor abaixo no formato RGB</p>
+                <span id="nome">NOME</span>
+            </div>
+            <label for="r">R:</label>
+            <input type="number" name="r" class="rgb" placeholder="0" id="r">
+            <label for="g">G:</label>
+            <input type="number" name="g" class="rgb" placeholder="0" id="g">
+            <label for="b">B:</label>
+            <input type="number" name="b" class="rgb" placeholder="0" id="b">
+            <button class="btn_enviar">Enviar</button>
+        </div>
+        <div class="placar">
+            <p id="estado">Esperando...</p>
+            <span id="score">0</span>
+        </div>
+        <div class="game">
+            <div class="campo">1</div>
+            <div class="campo">2</div>
+            <div class="campo">3</div>
+            <div class="campo">4</div>
+            <div class="campo">5</div>
+            <div class="campo">6</div>
+        </div>
+        <button id="btn_voltar">Voltar a tela principal</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
