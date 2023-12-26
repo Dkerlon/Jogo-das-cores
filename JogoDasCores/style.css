@@ -40,7 +40,7 @@ input[type='number']::-webkit-inner-spin-button {
 
 .sessao button{
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 1.3rem;
     width: 90%;
     border: 3px solid #fcf2f2;
     padding: 20px;
@@ -60,6 +60,18 @@ input[type='number']::-webkit-inner-spin-button {
     margin-top: 70px;
     height: 300px;
     gap: 20px;
+}
+
+.sessao_novo_jogador input{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.sessao_novo_jogador label{
+    font-size: 2rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .sessao_carregar_jogador{
@@ -84,15 +96,6 @@ input[type='number']::-webkit-inner-spin-button {
     width: 90%;
     border: 3px solid #fcf2f2;
     padding: 20px;
-}
-
-.sessao_novo_jogador input{
-    text-align: center;
-    font-size: 18px;
-}
-
-.sessao_novo_jogador label{
-    font-size: 30px;
 }
 
 #nome_input{
