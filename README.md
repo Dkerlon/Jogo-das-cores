@@ -4,9 +4,9 @@ Meu objetivo é fazer um jogo simples, onde o usuário insere uma cor e tenta ac
 
 Da pra reutilizar esse mesmo código para criar jogos parecidos e interessantes!
 
-- [] Carregar o jogo de acordo com o usuário escolhido
-- [] Salvar os dados do Usuário no Local Storage
-- [] Adcionar uma música de fundo, com o botão de mutar/desmutar
+- [ ] Carregar o jogo de acordo com o usuário escolhido
+- [ ] Salvar os dados do Usuário no Local Storage
+- [ ] Adcionar uma música de fundo, com o botão de mutar/desmutar
 
 
 Qualquer sugestão de melhoria fiquem a vontade! 😁
