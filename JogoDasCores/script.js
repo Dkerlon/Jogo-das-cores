@@ -9,6 +9,7 @@ const estado = document.querySelector('#estado')
 const Domscore = document.querySelector('#score')
 const campo = [...document.querySelectorAll('.campo')]
 const sessao_novo_jogador = document.querySelector('.sessao_novo_jogador')
+const sessao_carregar_jogador = document.querySelector('.sessao_carregar_jogador')
 const btn_iniciar = document.querySelector('#btn_iniciar')
 const nome = document.querySelector('#nome')
 
@@ -70,8 +71,9 @@ btn_iniciar.addEventListener('click', () => {
 btn_carregar_jogo.addEventListener('click', () => {
     //Não zera o score
     h1.style.marginTop = '1%'
+    sessao_carregar_jogador.classList.add('mostrar')
     btn_novo_jogo.parentNode.classList.add('hidden')
-    game_board.classList.add('mostrar')
+    carregarJogadores()
 })
 
 btn_voltar.addEventListener('click', () => {
@@ -178,3 +180,11 @@ campo.map((el) => {
     })
 })
 
+function carregarJogadores(){
+    jogadores.map((el) => {
+        const div = document.createElement('button')
+        div.setAttribute('class','jogador')
+        div.innerHTML = el.jogador
+        sessao_carregar_jogador.appendChild(div)
+    })
+}
